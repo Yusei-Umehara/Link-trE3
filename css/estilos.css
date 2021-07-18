@@ -1,6 +1,6 @@
 body
 {
-    color: darkorchid;
+    color: mediumpurple;
     text-align: center;
     font-family: Arial;
     font-size: 15px;
@@ -20,6 +20,7 @@ body
 #container h1
 {
     font-size: 28px;
+    color: mediumpurple;
 }
 
 
@@ -97,8 +98,8 @@ body
 
 #pie
 {
-    background: green;
-    color: darkgrey;
+    background:green;
+    color: whitesmoke;
     text-align: center;
     font-size: 17px;
     font-family: sans-serif;
