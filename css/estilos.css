@@ -1,7 +1,7 @@
 body
 {
     background-color: black;
-    color: green;
+    
     text-align: center;
     font-family: Arial;
     font-size: 15px;
@@ -51,6 +51,7 @@ body
 #post
 {
     background: black;
+    color: green;
     padding: 1em;
     text-align: center;
     font-size: large;
