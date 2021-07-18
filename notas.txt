@@ -1,4 +1,3 @@
-6
-
-Esta es la historia de la vida laborala de Freddy Vega.
+1.
+Al subirlo naturalmente, tuvo el error de un recorte hacia abajo que creo que se arregla si extiendo el marco principal.
 
