@@ -50,6 +50,7 @@ body
 
 #post
 {
+    color: green;
     background: black;
     padding: 1em;
     text-align: center;
@@ -61,6 +62,8 @@ body
     width: 70px;
     vertical-align: middle;
 }
+
+
 
 #post #links #logoPlatzi
 {
@@ -97,11 +100,6 @@ body
 
 }
 
-#post #links #correoName
-{
-    color: green;
-
-}
 
 
 #pie
