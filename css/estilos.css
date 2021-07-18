@@ -1,30 +1,41 @@
 body
 {
-    background:black;
-    color: black;
+    color: darkorchid;
     text-align: center;
     font-family: Arial;
-    font-size: 16px;
+    font-size: 15px;
     margin: 0;
     padding: 0;
 }
+
+#container
+{
+    width: 30%;
+    padding: 0;
+    text-align: left;
+    border: 3px solid darkorchid;
+    margin: 0 auto;
+}
+
+#container h1
+{
+    font-size: 28px;
+}
+
 
 #cabecera
 {
     background: darkgreen;
     box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
-    color: whitesmoke;
+    color:darkgrey;
     font-weight: bold;
+    font-size: 15px;
     margin: 0;
     padding: 0.5em;
+    text-align: center;
 }
 
-#cabecera #logo
-{
-    width: 30px;
-    vertical-align: middle;
-}
-
+/* H T C */
 #cabecera #tagline
 {
     padding: 0 0 0 1em;
@@ -32,30 +43,64 @@ body
     font-size: 0.8em;
 }
 
-#container
-{
-    width: 70%;
-    padding: 0;
-    text-align: left;
-    border: 1px solid #DDD;
-    margin: 0 auto;
-}
 
-#container h1
-{
-    font-size: 20px;
-}
 
 #post
 {
-    background:  #1e1f24;
+    background: black;
     padding: 1em;
+    text-align: center;
+    font-size: large;
 }
+
+#post #logo
+{
+    width: 70px;
+    vertical-align: middle;
+}
+
+#post #links #logoPlatzi
+{
+    width: 42px;
+    vertical-align: middle;
+
+}
+
+#post #links #logoGit
+{
+    width: 40px;
+    vertical-align: middle;
+
+}
+
+#post #links #logoItch
+{
+    width: 40px;
+    vertical-align: middle;
+
+}
+
+#post #links #logoLetter
+{
+    width: 40px;
+    vertical-align: middle;
+
+}
+
+#post #links #correo
+{
+    width: 33px;
+    vertical-align: middle;
+
+}
+
 
 #pie
 {
-    background: darkslateblue;
-    color: whitesmoke;
-    
-
+    background: green;
+    color: darkgrey;
+    text-align: center;
+    font-size: 17px;
+    font-family: sans-serif;
 }
+
