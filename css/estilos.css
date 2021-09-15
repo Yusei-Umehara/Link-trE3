@@ -11,18 +11,27 @@ body
 
 #container
 {
-    width: 30%;
-    height: auto;
+    width: 33;
+    height: 50;
+    opacity: 0.90x;
     padding: 0;
     text-align: left;
     border: 3px solid darkorchid;
     margin: 0 auto;
+
+    flex: 0.31;
+    min-width: 50px;
+
+
 }
 
 #container h1
 {
     font-size: 28px;
     color: darkgrey;
+    flex: 1;
+    min-width: 50px;
+    text-align: center;
 }
 
 
@@ -47,14 +56,22 @@ body
 }
 
 
+.home
+{
+    display: flex;
+    flex-wrap: wrap;
+}
 
-#post
+#post  /* in flex */
 {
     color: green;
     background: black;
-    padding: 1em;
+    padding: 25px;
     text-align: center;
     font-size: large;
+    /* margin: 1px; */
+    flex: 1;
+    min-width: 50px;
 }
 
 #post #logo
@@ -97,6 +114,8 @@ body
 {
     width: 33px;
     vertical-align: middle;
+    flex: 1;
+    min-width: 50px;
 
 }
 
