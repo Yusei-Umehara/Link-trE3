@@ -1,7 +1,7 @@
 body
 {
     background-color: black;
-    color: mediumpurple;
+    color: green;
     text-align: center;
     font-family: Arial;
     font-size: 15px;
@@ -30,7 +30,7 @@ body
 #container h1   /* Titulo */
 {
     font-size: 28px;
-    color: mediumpurple;
+    color: darkorchid;
     text-align: center;
 
 }
@@ -38,7 +38,7 @@ body
 
 #cabecera
 {
-    background: darkgreen;
+    background: green;
     box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
     color:darkgrey;
     font-weight: bold;
@@ -68,9 +68,11 @@ body
     text-align: center;
     font-size: large;
 
-    opacity: 0.8;
+
+    opacity: 0.90;
     flex: 1;
-    min-width: 400;
+    height: 505px;
+    min-width: auto;
 
 }
 
@@ -120,10 +122,15 @@ body
 
 #pie
 {
-    background:green;
-    color: whitesmoke;
+    background: green;
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
+    color:darkgrey;
+    font-weight: bold;
+    font-size: 15px;
+    font-style: sansserif;
+    margin: 0px;
+    padding: 0.7em;
     text-align: center;
-    font-size: 17px;
-    font-family: sans-serif;
+
 }
 
